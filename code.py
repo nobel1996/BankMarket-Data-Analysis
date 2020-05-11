@@ -82,3 +82,5 @@ print(df_new)
 
 # Merge two dataframes `df_new` and `df_credit_score` with both the left and right dataframes using the `customer_id` key
 pd.merge(df_new, df_credit_score, left_on='customer_id', right_on='customer_id')
+
+
